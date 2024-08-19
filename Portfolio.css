@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: burlywood;
+  color: #fff;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+.about_para{
+  line-height: 35px;
+}
+header {
+  background: olive;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+header .logo h1 {
+  margin: 0;
+}
+header .tagline {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile-img {
+  box-shadow: 5px 5px 12px gray;
+  border-radius: 20px;
+  width: 250px;
+  height: 450px;
+  margin-right: 2rem;
+}
+.bio {
+  max-width: 600px;
+}
+h2{
+  text-align: center;
+}
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background: beige;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: #333;
+}
+
+#projects .project {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#projects img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#projects h3 {
+  margin: 0.5rem 0;
+}
+
+#resume a {
+  color: blue;
+  text-decoration: none;
+}
+
+#resume a:hover {
+  text-decoration: underline;
+}
+
+#contact p {
+  margin: 0.5rem 0;
+}
+.icons{
+  height: 28px;
+  width: 28px;
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 739px){
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+  }
+}
